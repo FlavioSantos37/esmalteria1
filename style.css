@@ -9,7 +9,7 @@
 
 .caixa-mae{
     width: 100%;
-    height:600px;
+    height:400px;
     
     display:flex;
     gap: 10px;
@@ -73,7 +73,60 @@ ul {
     margin-right: 2px;
     padding: 5px;
     width: 50%;
-    height: 390px;
+    height:400px;
     /* background-color: blue; */
 
+  }
+
+  .procedimentos{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    
+    display: flex;
+    justify-content: center;
+  
+  }
+  h1{
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    border-radius: 12px 12px 0px 0px;
+    padding-top: 5px;
+    color: white;
+  }
+
+  .proced{
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    margin: 5px;
+    padding:5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .tituloproced{
+    width: 400px;
+    height: 30px;
+    color: rgb(44, 44, 44);
+    padding-left: 350px;
+    /* background-color: blue; */
+    position: absolute;   
+    margin: 0px;
+  }
+
+ .textoporeced{
+      padding-top:30px;
+ } 
+  
+
+  .proced-img{
+    width: 150px;
+    height: 150px;
+    margin-left: 3px;
+    padding-top: 40px;
+    border-radius: 10px ;
   }
