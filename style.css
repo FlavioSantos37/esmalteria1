@@ -8,11 +8,11 @@
 }
 
 .caixa-mae{
-    width: 100%;
-    height:400px;
+    width: 80%;
+    height:auto;
     
     display:flex;
-    gap: 10px;
+    
     /* background-color: red; */
 }
 
@@ -21,14 +21,14 @@
                     justify-content: center;
                     width: 50%;
                     height: 400px;
-                    background-color: green;
+                    /* background-color: green; */
                     margin-top: 10px;
                     margin-left: 2px;
 
 }
 
 .caixa-principal img{
-    width:100%;
+    width:50%;
     height: 400px;
 }
 
@@ -73,7 +73,7 @@ ul {
     margin-right: 2px;
     padding: 5px;
     width: 50%;
-    height:400px;
+    
     /* background-color: blue; */
 
   }
@@ -89,6 +89,7 @@ ul {
   .procedimentos{
     width: 100%;
     height: 500px;
+    overflow: hidden;
     /* background-color: red; */
     
     display: flex;
@@ -139,7 +140,7 @@ ul {
   width: 100%;
   height: auto;
   /* background-color: red; */
-  gap: 30px;
+  
   display: flex;
   justify-content: center;
   
@@ -149,16 +150,21 @@ ul {
 
 
 .depoiment img{
+  
+  
   width: 150px;
   height: 150px;
-  /* background-color: rgb(168, 39, 46); */
+  background-color: rgb(168, 39, 46);
   margin: 5px;
   padding:5px;
-  margin-left: 230px;
-  border-radius: 80px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+ border-radius: 80px;
+  
+  
+
+}
+.depoimentimg{
+  /* background-color: black; */
+  margin: 30px;
   text-align: center;
 }
 
@@ -174,6 +180,9 @@ ul {
 
 .textodepoimento{
   padding-top:30px;
+  /* background-color: #1d7032; */
+  height: auto;
+  margin: 30px;
 
   
 } 
