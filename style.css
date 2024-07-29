@@ -1,12 +1,3 @@
-
-.banner{
-    width:100%;
-}
-.banner img{
-    width: 80%;
-    height: 500px;
-}
-
 .caixa-mae{
     width:100%;
     height:auto;
@@ -37,19 +28,21 @@
     background-color: white;
 }
 
-ul {
+nav{
     list-style-type: none;
     margin: 0px;
     padding:0;
+    
   }
 
-  ul {
+  nav{
 
     list-style-type: none;
     margin-top: -10px;
     padding: 0px;
     overflow: hidden;
     background-color: #701d1d;
+    
     text-align: center;
   }
 
@@ -72,6 +65,29 @@ ul {
     transition: 1s;
     background-color: #2aa7a7;
   }
+  
+  .mobilemenu{
+    width:35px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #701d1d;
+    display: none;  
+    margin-top: 7px;
+    
+    
+    
+  }
+
+.mobilemenu div{
+ 
+  width: 30px;
+  height: 4px;
+  background: rgb(24, 24, 24);
+  margin:3px;
+  
+
+  
+}
 
   .texto1{
     margin-top:40px;
@@ -266,9 +282,7 @@ footer {
     }
   
 
- .header{
-    display: none;
- }
+ 
  .texto1{
   width: 95%;
   height: auto;
@@ -303,8 +317,31 @@ footer {
 .depoimento{
   display: contents;
 }
+body{
+  overflow-x: hidden;
+}
+ul{
+  position: absolute;
+  top: 8vh;
+  right:0px;
+  width: 25vw;
+  height: 92vh;
+  background-color: #531313;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+}
 
+ul.active{
+  transform: translateX(0);
+}
+.mobilemenu{
+  
+  display: block;
 
+}
 
 
 
