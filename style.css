@@ -78,7 +78,7 @@ nav{
     
   }
 
-.mobilemenu div{
+.mobile-menu div{
  
   width: 30px;
   height: 4px;
@@ -320,27 +320,38 @@ footer {
 body{
   overflow-x: hidden;
 }
-ul{
+.nav-list{
   position: absolute;
-  top: 8vh;
-  right:0px;
-  width: 25vw;
-  height: 92vh;
+  top:px;
+  right:10px;
+  width:30%;
+  height: auto;
   background-color: #531313;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  transform: translateX(100%);
+  transform: translateX(105%);
   transition: transform 0.3s ease-in;
+  padding:5px;
 }
-
-ul.active{
-  transform: translateX(0);
-}
-.mobilemenu{
+.nav-list li{
+  /* background-color: green; */
+  width:100%;
   
-  display: block;
 
+}
+
+.mobile-menu{
+  padding-top: 5px;
+  width: 40px;
+  cursor: pointer;
+  display: block;
+ /* background-color: red; */
+}
+
+
+.nav-list.active{
+  transform: translateX(0);
 }
 
 
