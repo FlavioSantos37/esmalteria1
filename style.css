@@ -1,3 +1,4 @@
+
 .caixa-mae{
     width:100%;
     height:auto;
@@ -64,6 +65,7 @@ nav{
   li a:hover {
     transition: 1s;
     background-color: #2aa7a7;
+    border-radius: 5px;
   }
   
   .mobile-menu{
@@ -160,7 +162,38 @@ nav{
    
     
   }
+  .noiva{
+    width: 100%;
+   padding-bottom: 30px;
+  }
+  .diadenoiva{
+    /* background-color: black; */
+    margin-left: 100px;
+    height:auto;
+    display:flex;
+    gap: 30px;
+    height: auto;
+    
+  
+  }
+  .noivaimg img{
+    background-color: white;
+    width: 450px;
+    height: 350px;
+    
+    /* color:red; */
+    
+   
 
+    border-radius: 10px;
+
+
+  }
+  .textonoiva{
+   width: 750px;
+   display: block;
+ 
+  }
   .tituloproced{
     
     height: 30px;
@@ -299,8 +332,6 @@ footer {
   margin-top: 10px;
   color: white;
   border-radius: 5px;
-  text-align: center;
-  display: flex;
   margin: 15px;
 }
 .redessociais img{
@@ -308,6 +339,14 @@ footer {
   height: 60px;
   /* padding:10px ; */
 
+}
+
+.diadenoiva{
+
+}
+
+.noivaimg img{
+  text-align: center;
 }
 
 .procedimentos{
@@ -354,11 +393,5 @@ body{
   transform: translateX(0);
 }
 
-
-
-
-
-
-
-
+     
 }
