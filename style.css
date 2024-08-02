@@ -162,38 +162,13 @@ nav{
    
     
   }
-  .noiva{
-    width: 100%;
-   padding-bottom: 30px;
-  }
-  .diadenoiva{
-    /* background-color: black; */
-    margin-left: 100px;
-    height:auto;
-    display:flex;
-    gap: 30px;
-    height: auto;
-    
-  
-  }
-  .noivaimg img{
-    background-color: white;
-    width: 450px;
-    height: 350px;
-    
-    /* color:red; */
-    
-   
 
-    border-radius: 10px;
-
-
-  }
-  .textonoiva{
-   width: 750px;
-   display: block;
  
-  }
+  
+
+
+  
+ 
   .tituloproced{
     
     height: 30px;
@@ -231,7 +206,7 @@ nav{
 
   width: 150px;
   height: 150px;
-  background-color: rgb(168, 39, 46);
+  /* background-color: rgb(168, 39, 46); */
   margin: 5px;
   padding:5px;
  border-radius: 80px;
@@ -264,7 +239,42 @@ nav{
 
 
 }
+.noiva{
+  width: 100%;
+  height: auto;
+  
+  /* background-color: red; */
 
+  
+  
+}
+.diadenoiva{
+  width: 100%;
+  height: 400px;
+  /* background-color: rgb(12, 11, 11); */
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+
+ 
+}
+
+.noiva-img{
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  background-color: #701d1d;
+  padding: 2px;
+}
+.textnoiva{
+  color: rgb(3, 3, 3);
+}
+.txtnoiva{
+  width: 90%;
+  
+  /* background-color: green; */
+  
+}
  .redessociais{
   /* background-color:#701d1d ; */
   width: 40%;
@@ -341,13 +351,60 @@ footer {
 
 }
 
+.noiva{
+  
+ /* background-color: #2aa7a7; */
+  
+  
+}
 .diadenoiva{
+  width: 100%;
+  height: auto;
+  display: block;
+  /* background-color: rgb(3, 3, 3); */
+ 
+  
+ 
+  
 
+ 
 }
-
-.noivaimg img{
+.imgnoiva{
+  width: 100%;
+  height: auto;
+  /* background-color:blue; */
   text-align: center;
+
 }
+.noiva-img{
+  width: 450px;
+  height: 350px;
+ 
+  /* background-color:blue; */
+  
+
+}
+.textonoiva{
+  
+  /* background-color: #701d69; */
+  height: auto;
+ 
+  
+   display:flex;
+   justify-content: center;
+ 
+}
+.txtnoiva{
+  width:90%;
+  color: rgb(2, 2, 2);
+  /* background-color: green; */
+ 
+}
+
+
+
+
+
 
 .procedimentos{
   display: contents;
