@@ -1,3 +1,9 @@
+*{
+  font-family: 'Montserrat',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin:0;
+   padding: 0;
+
+}
 
 .caixa-mae{
     width:100%;
@@ -33,7 +39,7 @@ nav{
     list-style-type: none;
     margin: 0px;
     padding:0;
-    
+
   }
 
   nav{
@@ -43,7 +49,7 @@ nav{
     padding: 10px;
     overflow: hidden;
     background-color: #701d1d;
-    
+
     text-align: center;
   }
 
@@ -67,28 +73,28 @@ nav{
     background-color: #2aa7a7;
     border-radius: 5px;
   }
-  
+
   .mobile-menu{
     width:35px;
     height: 25px;
     cursor: pointer;
     background-color: #701d1d;
-    display: none;  
+    display: none;
     margin-top: 7px;
-    
-    
-    
+
+
+
   }
 
 .mobile-menu div{
- 
+
   width: 30px;
   height: 4px;
   background: rgb(24, 24, 24);
   margin:3px;
-  
 
-  
+
+
 }
 
   .texto1{
@@ -122,7 +128,7 @@ nav{
   .procedimentos{
     width: 100%;
     height: 500px;
-    
+
     /* background-color: red; */
 
     display: flex;
@@ -143,7 +149,7 @@ nav{
 
     text-align: center;
     /* background-color: #531313; */
-   
+
   }
   .proced img{
     width: 250px;
@@ -156,32 +162,39 @@ nav{
 
 
   }
+
+  .procedimg :hover{
+    transition: 1s;
+    background-color: #2aa7a7;
+    cursor: pointer;
+
+  }
   .proced{
     margin: 10px;
     /* background-color: #531313; */
-   
-    
+
+
   }
 
- 
-  
 
 
-  
- 
+
+
+
+
   .tituloproced{
-    
+
     height: 30px;
     color: rgb(44, 44, 44);
     text-align: center;
     /* background-color: blue; */
-    
-    
-    
+
+
+
   }
 
  .textoporeced{
- 
+
       padding-top:30px;
       /* background-color: aquamarine; */
  }
@@ -240,13 +253,15 @@ nav{
 
 }
 .noiva{
+  padding-top: 10px;
   width: 100%;
   height: auto;
-  
+  display: block;
+
   /* background-color: red; */
 
-  
-  
+
+
 }
 .diadenoiva{
   width: 100%;
@@ -256,24 +271,28 @@ nav{
   display: flex;
   justify-content: center;
 
- 
+
 }
 
 .noiva-img{
-  width: 450px;
+  width:auto;
   height: 350px;
   border-radius: 20px;
   background-color: #701d1d;
   padding: 2px;
+  display: block;
 }
-.textnoiva{
+.textonoiva{
   color: rgb(3, 3, 3);
+  /* background-color: #2aa7a7; */
+  height: 200px;
+  padding-top: 40px;
 }
 .txtnoiva{
   width: 90%;
-  
+
   /* background-color: green; */
-  
+
 }
  .redessociais{
   /* background-color:#701d1d ; */
@@ -303,10 +322,10 @@ footer {
 	text-align: center;
 
 }
-@media(max-width:1100px){
-  
-  
-  
+@media(max-width:999px){
+
+
+
 
   .caixa-mae{
       display:flex;
@@ -315,23 +334,26 @@ footer {
   }
 
   .caixa-principal{
+    width: 100%;
     height: auto;
   }
   .caixa-principal img{
-      width: 500px;
-      height: 200px;      
-      /* background-color: #531338; */
-      
-    }
-  
+      width: 90%;
+      height: auto;
+      padding: 0;
 
- 
+      /* background-color: #531338; */
+
+    }
+
+
+
  .texto1{
   width: 95%;
   height: auto;
   color: white;
   font-size: 15px;
-  
+
   /* background-color: blue;} */
 }
 .redessociais{
@@ -352,53 +374,56 @@ footer {
 }
 
 .noiva{
-  
- /* background-color: #2aa7a7; */
-  
-  
+
+  /* background-color: #2aa7a7; */
+  margin: 0;
+  padding: 0;
+
+
 }
 .diadenoiva{
   width: 100%;
   height: auto;
-  display: block;
-  /* background-color: rgb(3, 3, 3); */
- 
-  
- 
-  
+ display: contents;
 
- 
+  /* background-color: rgb(42, 126, 60); */
 }
 .imgnoiva{
-  width: 100%;
-  height: auto;
-  /* background-color:blue; */
-  text-align: center;
+     display: flex;
+     justify-content: center;
+      width: 100%;
+      height: auto;
+     text-align: center;
+      /* background-color: #2aa7a7; */
+      padding-top: 15px;
+      padding-bottom: 15px;
+
 
 }
+
 .noiva-img{
-  width: 450px;
-  height: 350px;
- 
-  /* background-color:blue; */
-  
+  width: 90%;
+  height: auto;
+
+
+
 
 }
 .textonoiva{
-  
+
   /* background-color: #701d69; */
   height: auto;
- 
-  
+
+
    display:flex;
    justify-content: center;
- 
+ padding-bottom: 10px;
 }
 .txtnoiva{
   width:90%;
   color: rgb(2, 2, 2);
   /* background-color: green; */
- 
+
 }
 
 
@@ -433,7 +458,7 @@ body{
 .nav-list li{
   /* background-color: green; */
   width:100%;
-  
+
 
 }
 
@@ -450,5 +475,5 @@ body{
   transform: translateX(0);
 }
 
-     
+
 }
